@@ -31,6 +31,7 @@ public class ConstructorsExamples {
 		subStudent s = new subStudent();
 		s.fee = 100;
 		s.display();
+		System.out.println("Hello");
 	}
 
 }
