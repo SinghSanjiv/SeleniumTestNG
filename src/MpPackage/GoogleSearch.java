@@ -38,8 +38,7 @@ public class GoogleSearch {
 		driver.findElement(By.name("btnK")).click();
 		// Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.elementToBeClickable(By
-				.linkText("Careers")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Careers")));
 		driver.findElement(By.linkText("Careers")).click();
 		Thread.sleep(2000);
 		Assert.assertEquals("Synechron - Careers", driver.getTitle().trim());
