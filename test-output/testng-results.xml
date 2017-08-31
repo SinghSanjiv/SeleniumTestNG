@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23772" started-at="2017-08-24T09:52:43Z" finished-at="2017-08-24T09:53:07Z">
+  <suite name="Suite" duration-ms="21243" started-at="2017-08-31T10:14:03Z" finished-at="2017-08-31T10:14:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23772" started-at="2017-08-24T09:52:43Z" finished-at="2017-08-24T09:53:07Z">
+    <test name="Test" duration-ms="21243" started-at="2017-08-31T10:14:03Z" finished-at="2017-08-31T10:14:24Z">
       <class name="MpPackage.GoogleSearch">
-        <test-method status="PASS" signature="method2()[pri:0, instance:MpPackage.GoogleSearch@5474c6c]" name="method2" duration-ms="0" started-at="2017-08-24T15:22:43Z" finished-at="2017-08-24T15:22:43Z">
+        <test-method status="PASS" signature="method2()[pri:0, instance:MpPackage.GoogleSearch@5474c6c]" name="method2" duration-ms="0" started-at="2017-08-31T15:44:03Z" finished-at="2017-08-31T15:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="mehtod1()[pri:0, instance:MpPackage.GoogleSearch@5474c6c]" name="mehtod1" duration-ms="23741" started-at="2017-08-24T15:22:43Z" finished-at="2017-08-24T15:23:07Z">
+        <test-method status="PASS" signature="mehtod1()[pri:0, instance:MpPackage.GoogleSearch@5474c6c]" name="mehtod1" duration-ms="21212" started-at="2017-08-31T15:44:03Z" finished-at="2017-08-31T15:44:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mehtod1 -->
