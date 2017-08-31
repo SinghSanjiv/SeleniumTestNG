@@ -23,7 +23,7 @@ public class GoogleSearch {
 
 	@Test(priority=1)
 	public static void mehtod1() throws InterruptedException {
-		System.out.println("******** Start Executions Now *************");
+		System.out.println("******** Start Executions *************");
 		System.out.println("******** Steps  Started *************");
 		String url = "https://www.Google.co.in/";
 		String srchText = "Synechron";
