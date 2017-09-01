@@ -39,7 +39,7 @@ public class GoogleSearch {
 		// Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Careers")));
-		driver.findElement(By.linkText("Career")).click();
+		driver.findElement(By.linkText("Careers")).click();
 		Thread.sleep(2000);
 		Assert.assertEquals("Synechron - Careers", driver.getTitle().trim());
 		// Checking for existance of the Element to verify the specific page
