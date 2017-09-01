@@ -35,7 +35,7 @@ public class GoogleSearch {
 		System.out.println("******** Web App Launched *************");
 		Thread.sleep(2000);
 		driver.findElement(By.id("lst-ib")).sendKeys(srchText);
-		driver.findElement(By.name("btnK")).click();	//btnK
+		driver.findElement(By.name("btn")).click();	//btnK
 		// Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Careers")));
