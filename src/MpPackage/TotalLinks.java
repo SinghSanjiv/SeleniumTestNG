@@ -2,6 +2,7 @@ package MpPackage;
 
 import java.util.List;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,7 +11,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TotalLinks {
 
-	public static void main(String[] args) {
+	@Test
+	public static void main1() {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Sanjeev\\driverfiles\\ChromeDriver.exe");
 		
@@ -21,7 +23,7 @@ public class TotalLinks {
 		driver.get("https://www.google.co.in");
 		List <WebElement> links = driver.findElements(By.tagName("a"));
  
-		System.out.println(links.size());
+		System.out.println("Total no of links:	"+links.size());
  
 		for (int i = 1; i<links.size(); i=i+1)
 			System.out.println(links.get(i).getAttribute("name"));

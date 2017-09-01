@@ -15,13 +15,13 @@ public class GoogleSearch {
 	
 		
 	
-	@Test(priority=0)
+	@Test//(priority=0)
 	public static void method2(){
 		
 		System.out.println("Hello There from TestNG!!");
 	}
 
-	@Test(priority=1)
+	@Test//(priority=1)
 	public static void mehtod1() throws InterruptedException {
 		System.out.println("******** Starts Executions Here *************");
 		System.out.println("******** Steps  Started *************");
