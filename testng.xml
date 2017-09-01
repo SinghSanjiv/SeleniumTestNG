@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="MpPackage.GoogleSearch"/>
+      <class name="MpPackage.TotalLinks"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

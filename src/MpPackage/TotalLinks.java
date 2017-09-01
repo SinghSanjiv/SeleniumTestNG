@@ -18,12 +18,12 @@ public class TotalLinks {
 		options.addArguments("start-maximized");
 		WebDriver driver = new ChromeDriver(options);
 		
-		driver.get("http://toolsqa.wpengine.com/");
-		List <WebElement> links = driver.findElements(By.tagName("img"));
+		driver.get("https://www.google.co.in");
+		List <WebElement> links = driver.findElements(By.tagName("a"));
  
 		System.out.println(links.size());
  
-		for (int i = 1; i<=links.size(); i=i+1)
+		for (int i = 1; i<links.size(); i=i+1)
 			System.out.println(links.get(i).getAttribute("name"));
 		driver.quit();
 	}
