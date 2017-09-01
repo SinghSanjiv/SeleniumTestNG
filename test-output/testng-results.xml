@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29471" started-at="2017-09-01T10:12:42Z" finished-at="2017-09-01T10:13:12Z">
+  <suite name="Suite" duration-ms="25787" started-at="2017-09-01T10:47:53Z" finished-at="2017-09-01T10:48:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29471" started-at="2017-09-01T10:12:42Z" finished-at="2017-09-01T10:13:12Z">
+    <test name="Test" duration-ms="25787" started-at="2017-09-01T10:47:53Z" finished-at="2017-09-01T10:48:19Z">
       <class name="MpPackage.GoogleSearch">
-        <test-method status="PASS" signature="mehtod1()[pri:0, instance:MpPackage.GoogleSearch@546a03af]" name="mehtod1" duration-ms="21953" started-at="2017-09-01T15:42:42Z" finished-at="2017-09-01T15:43:04Z">
+        <test-method status="PASS" signature="mehtod1()[pri:0, instance:MpPackage.GoogleSearch@546a03af]" name="mehtod1" duration-ms="19672" started-at="2017-09-01T16:17:53Z" finished-at="2017-09-01T16:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mehtod1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:MpPackage.GoogleSearch@546a03af]" name="method2" duration-ms="0" started-at="2017-09-01T15:43:04Z" finished-at="2017-09-01T15:43:04Z">
+        <test-method status="PASS" signature="method2()[pri:0, instance:MpPackage.GoogleSearch@546a03af]" name="method2" duration-ms="5" started-at="2017-09-01T16:18:13Z" finished-at="2017-09-01T16:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
       </class> <!-- MpPackage.GoogleSearch -->
       <class name="MpPackage.TotalLinks">
-        <test-method status="PASS" signature="main1()[pri:0, instance:MpPackage.TotalLinks@23223dd8]" name="main1" duration-ms="7518" started-at="2017-09-01T15:43:04Z" finished-at="2017-09-01T15:43:12Z">
+        <test-method status="PASS" signature="main1()[pri:0, instance:MpPackage.TotalLinks@23223dd8]" name="main1" duration-ms="6079" started-at="2017-09-01T16:18:13Z" finished-at="2017-09-01T16:18:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main1 -->
